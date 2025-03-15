@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #0f0f0fbe;
+    color: white;
+    border-bottom: 1px solid #030303;
+  }
+  
+  .hamburger {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Oculta el menú en móviles por defecto */
+  .menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #0f0f0f;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  /* Alineación en escritorio */
+  @media (min-width: 768px) {
+    .menu {
+      position: static;
+      background: none;
+      padding: 0;
+    }
+  }
+  

@@ -15,7 +15,7 @@ interface Proyecto {
   selector: 'app-mis-proyectos',
   imports: [CommonModule, FooterComponent, NavbarComponent],
   templateUrl: './mis-proyectos.component.html',
-  styleUrl: './mis-proyectos.component.css'
+  styleUrl: './mis-proyectos.component.css'   
 })
 
 export class MisProyectosComponent {

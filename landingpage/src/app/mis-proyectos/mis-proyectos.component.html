@@ -1,0 +1,72 @@
+ 
+<app-navbar></app-navbar>
+
+<section id="mis-proyectos">
+
+    <div class="proyectos_cuerpo">
+      <h1 class="text-white">Mis proyectos</h1>
+
+      @for(proyecto of proyectos; track $index){
+      <div class="flex items-center bg-black shadow-lg rounded-2xl p-6 w-full max-w-3xl">
+        <!-- Imagen más grande -->
+        <img [src]="proyecto.imagenes[0]" alt="Imagen del proyecto" class="w-40 h-40 object-cover rounded-xl">
+
+
+        <!-- Contenido -->
+        <div class="ml-6 flex-1">
+          <h3 class="text-2xl font-bold text-white">{{proyecto.titulo}}</h3>
+          <p class="text-white text-base mt-2">
+            {{ proyecto.descripcion.length > 100 ? proyecto.descripcion.slice(0, 100) + "..." : proyecto.descripcion }}
+          </p>
+
+          <p class="text-white text-base mt-2">
+            <span class="text-2xl font-bold text-white">Tecnologías:</span> {{proyecto.Tecnologias}}
+          </p>
+          <button class="mt-4 bg-purple-600 text-white px-5 py-2 rounded-lg hover:bg-purple-800 transition"
+          (click)="evento(proyecto)">
+    Ver Detalles
+  </button>
+  
+
+
+        </div>
+      </div>
+      }
+    </div>
+
+
+  </section>
+
+  <section>
+    @if(isOpen){
+
+
+    <div class="modal">
+      <div class="modal-content">
+        <button class="close" (click)="closeModal()" aria-label="Cerrar modal">
+          &times;
+        </button>
+        <div class="modal-body">
+          <div class="carousel">
+            <div class="carousel-images">
+              @for(Imagen of selectevent?.imagenes; track $index){
+              
+              <img [src]="Imagen" alt="Imagen de carousel" [class.active]="$index === currentImageIndex" class="carousel-image">
+              }
+            </div>
+            <button (click)="prevImage()" class="prev">&#10094;</button>
+            <button (click)="nextImage()" class="next">&#10095;</button>
+          </div>
+          <div class="content">
+            <h2>{{ selectevent?.titulo }}</h2>
+            <p>{{ selectevent?.descripcion }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    }
+
+  </section>
+
+  <app-footer></app-footer>

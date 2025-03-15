@@ -1,0 +1,22 @@
+
+ <!-- Navbar flotante -->
+ <header class="navbar">
+    <div class="container mx-auto flex justify-between items-center px-4 py-3">
+      <a [routerLink]="['/home']"  class="text-white text-2xl font-bold">Mi Portafolio</a>
+
+      <!-- Botón Hamburguesa -->
+      <button (click)="toggleMenu()" class="hamburger md:hidden">
+        ☰
+      </button>
+
+      <!-- Menú -->
+      <nav [ngClass]="{'hidden': !menuOpen, 'flex': menuOpen}" class="menu md:flex md:items-center">
+        <ul class="flex flex-col md:flex-row md:gap-6 text-lg">
+          <li><a [routerLink]="['/home']" (click)="closeMenu()">Inicio</a></li>
+          <li><a [routerLink]="['/sobre-mi']" (click)="closeMenu()">Sobre mí</a></li>
+          <li><a [routerLink]="['/mis-proyectos']" (click)="closeMenu()">Mis proyectos</a></li>
+          <!-- <li><a href="#otras-curiosidades" (click)="closeMenu()">Otras curiosidades</a></li> -->
+        </ul>
+      </nav>
+    </div>
+  </header>

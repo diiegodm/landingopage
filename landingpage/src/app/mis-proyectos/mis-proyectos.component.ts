@@ -35,9 +35,9 @@ export class MisProyectosComponent {
         descripcion: 'Proyecto desarrollado exclusivamente con HTML y CSS, enfocado en la creación de una página web estática con un diseño limpio y responsivo. Se implementaron diferentes propiedades de display y Flexbox para estructurar el contenido de manera eficiente. Además, se estableció una navegación fluida mediante rutas internas, permitiendo el acceso a distintas secciones del sitio sin el uso de JavaScript. Ideal para demostrar la aplicación de estilos modernos y buenas prácticas en desarrollo web.',
        Tecnologias:'HTML y CSS.' ,
         imagenes: [
-          'assets/bog_cafe/BlogDeCafé-1.jpg',
-          'assets/bog_cafe/BlogDeCafé-2.jpg',
-          'assets/bog_cafe/BlogDeCafé-3.jpg',
+          'assets/bog_cafe/BlogDeCafe-1.jpg',
+          'assets/bog_cafe/BlogDeCafe-2.jpg',
+          'assets/bog_cafe/BlogDeCafe-3.jpg',
          
          
          
@@ -48,7 +48,7 @@ export class MisProyectosComponent {
         descripcion: 'Página estática e informativa desarrollada en html y css donde se muestra contenido sin funcionalidades dinámicas. ',
        Tecnologias: 'HTML y CSS.',
         imagenes: [
-        'assets/freelancer/Screenshot 2025-03-08 at 16-05-25 Diseñador Freelancer.png',
+        'assets/freelancer/Screenshot.png',
          
         ],
       },
@@ -60,7 +60,7 @@ export class MisProyectosComponent {
           'assets/festivalmusica-FIN/music-2.jpg',
           'assets/festivalmusica-FIN/musica-1.jpg',
           'assets/festivalmusica-FIN/musica-3.jpg',
-          'assets/festivalmusica-FIN/Screenshot 2025-03-08 at 16-29-49 Festival De Música.jpg'
+          'assets/festivalmusica-FIN/screem.jpg'
          
         ],
       },
@@ -69,11 +69,12 @@ export class MisProyectosComponent {
           descripcion: 'Gym Management System es una aplicación web desarrollada para gestionar tanto la parte administrativa como la experiencia del usuario en un gimnasio. Este sistema cuenta con dos vistas principales: una para los administradores y otra para los usuarios. La vista de usuario permite gestionar la cuenta personal, ver entrenamientos disponibles, programar sesiones y consultar el historial de actividades realizadas. Por otro lado, la vista de administrador ofrece herramientas para gestionar usuarios, actualizar los datos del gimnasio y monitorizar las actividades de los miembros. El sistema incluye un CRUD completo (Crear, Leer, Actualizar, Eliminar) para usuarios y entrenamientos, lo que facilita la administración de todos los datos. No se ha utilizado ningún framework de diseño como Bootstrap; todo el diseño fue creado utilizando CSS para ofrecer una interfaz completamente personalizada. Además, el sistema está respaldado por una base de datos MongoDB, que garantiza la escalabilidad y el almacenamiento eficiente de los datos..',
        Tecnologias: 'angular,mongoDB,css,html,node.js .',
           imagenes: [
-           '../../assets/gym/Screenshot 2025-03-08 at 16-51-48 LoginPwass.jpg',
-           '../../assets/gym/Screenshot 2025-03-08 at 16-52-08 LoginPwass.jpg',
-           '../../assets/gym/Screenshot 2025-03-08 at 16-53-48 LoginPwass.jpg',
-           '../../assets/gym/Screenshot 2025-03-08 at 16-54-10 LoginPwass.jpg',
-           '../../assets/gym/Screenshot 2025-03-08 at 16-54-40 LoginPwass - copia.jpg'
+           'assets/gym/1.jpg',
+           'assets/gym/2.jpg',
+           'assets/gym/3.jpg',
+           'assets/gym/4.jpg',
+          'assets/gym/5.jpg',
+           
           ],
         },
         {
@@ -81,12 +82,12 @@ export class MisProyectosComponent {
           descripcion: 'Panel administrativo interactivo con gráficos y estadísticas.',
        Tecnologias :'React, Chart.js.',
           imagenes: [
-           'assets/inmobiliaria/Screenshot 2025-03-08 at 17-14-50 BienesRaices.jpg',
-           'assets/inmobiliaria/Screenshot 2025-03-08 at 17-15-08 BienesRaices.jpg',
-           'assets/inmobiliaria/Screenshot 2025-03-08 at 17-15-21 BienesRaices.jpg',
-           'assets/inmobiliaria/Screenshot 2025-03-08 at 17-15-49 BienesRaices.jpg',
-           'assets/inmobiliaria/Screenshot 2025-03-08 at 17-18-15 BienesRaices.jpg',
-           'assets/inmobiliaria/Screenshot 2025-03-08 at 17-18-38 BienesRaices.jpg',
+           'assets/inmobiliaria/1.jpg',
+           'assets/inmobiliaria/2.jpg',
+           'assets/inmobiliaria/3.jpg',
+           'assets/inmobiliaria/4.jpg',
+           'assets/inmobiliaria/5.jpg',
+           'assets/inmobiliaria/6.jpg',
            
           ],
         },
